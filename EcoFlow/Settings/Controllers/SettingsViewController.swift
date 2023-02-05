@@ -32,7 +32,6 @@ extension SettingsViewController: UITableViewDelegate {
     
     
 }
-// SOLID - I INTERFace segregation -
 
 extension SettingsViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
