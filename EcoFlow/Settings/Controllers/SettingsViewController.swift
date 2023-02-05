@@ -13,15 +13,15 @@ class SettingsViewController: UIViewController {
     
     let model = [
         Settings(name: "EcoCredits", imageName: "dollarsign.circle.fill",additionalInfo: "500"),
-        Settings(name: "Device Sharing", imageName: "dollarsign.circle.fill",additionalInfo: "500"),
-        Settings(name: "Warranty  Registraion", imageName: "dollarsign.circle.fill",additionalInfo: "500"),
-        Settings(name: "Language", imageName: "dollarsign.circle.fill",additionalInfo: "500"),
-        Settings(name: "Network Diagnosis", imageName: "dollarsign.circle.fill",additionalInfo: "500"),
-        Settings(name: "Contact customer support", imageName: "dollarsign.circle.fill",additionalInfo: "500"),
-        Settings(name: "Help center", imageName: "dollarsign.circle.fill",additionalInfo: "500"),
-        Settings(name: "Check updates", imageName: "dollarsign.circle.fill",additionalInfo: "500"),
-        Settings(name: "Rate us", imageName: "dollarsign.circle.fill",additionalInfo: "500"),
-        Settings(name: "About", imageName: "dollarsign.circle.fill",additionalInfo: "500"),
+        Settings(name: "Device Sharing", imageName: "dollarsign.circle.fill"),
+        Settings(name: "Warranty  Registraion", imageName: "dollarsign.circle.fill"),
+        Settings(name: "Language", imageName: "dollarsign.circle.fill"),
+        Settings(name: "Network Diagnosis", imageName: "dollarsign.circle.fill"),
+        Settings(name: "Contact customer support", imageName: "dollarsign.circle.fill"),
+        Settings(name: "Help center", imageName: "dollarsign.circle.fill"),
+        Settings(name: "Check updates", imageName: "dollarsign.circle.fill"),
+        Settings(name: "Rate us", imageName: "dollarsign.circle.fill"),
+        Settings(name: "About", imageName: "dollarsign.circle.fill"),
     
     ]
     
