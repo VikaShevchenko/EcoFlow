@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		630115C7298AB44E008C7D65 /* EcoFlowDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630115C6298AB44E008C7D65 /* EcoFlowDevice.swift */; };
+		630115CA298AB797008C7D65 /* UIViewController+addAsChild.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630115C9298AB797008C7D65 /* UIViewController+addAsChild.swift */; };
+		63942565298FC2D800B02E02 /* UITableView+register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63942564298FC2D800B02E02 /* UITableView+register.swift */; };
+		63942567298FC30000B02E02 /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63942566298FC30000B02E02 /* ReusableView.swift */; };
+		6394BA60298E76EF0006F239 /* UIViewController+init.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6394BA5F298E76EF0006F239 /* UIViewController+init.swift */; };
+		6394BA67298E78670006F239 /* AddDivecesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6394BA65298E78670006F239 /* AddDivecesViewController.swift */; };
+		6394BA68298E78670006F239 /* AddDivecesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6394BA66298E78670006F239 /* AddDivecesViewController.xib */; };
+		6394BA6D298E829E0006F239 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6394BA6B298E829E0006F239 /* SettingsViewController.swift */; };
+		6394BA6E298E829E0006F239 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6394BA6C298E829E0006F239 /* SettingsViewController.xib */; };
+		6394BA72298E843E0006F239 /* SettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6394BA70298E843E0006F239 /* SettingsTableViewCell.swift */; };
+		6394BA73298E843E0006F239 /* SettingsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6394BA71298E843E0006F239 /* SettingsTableViewCell.xib */; };
+		6394BA76298E860E0006F239 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6394BA75298E860E0006F239 /* Settings.swift */; };
+		63AB065C298AAC2800E4DF08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AB065B298AAC2800E4DF08 /* AppDelegate.swift */; };
+		63AB065E298AAC2800E4DF08 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AB065D298AAC2800E4DF08 /* SceneDelegate.swift */; };
+		63AB0665298AAC2900E4DF08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63AB0664298AAC2900E4DF08 /* Assets.xcassets */; };
+		63AB0668298AAC2900E4DF08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63AB0666298AAC2900E4DF08 /* LaunchScreen.storyboard */; };
+		63AB0679298AAE1000E4DF08 /* UsersListDevicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AB0677298AAE1000E4DF08 /* UsersListDevicesViewController.swift */; };
+		63AB067A298AAE1000E4DF08 /* UsersListDevicesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63AB0678298AAE1000E4DF08 /* UsersListDevicesViewController.xib */; };
+		63AB067F298AAF2200E4DF08 /* EcoFlowDeviceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AB067D298AAF2200E4DF08 /* EcoFlowDeviceTableViewCell.swift */; };
+		63AB0680298AAF2200E4DF08 /* EcoFlowDeviceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63AB067E298AAF2200E4DF08 /* EcoFlowDeviceTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		630115C6298AB44E008C7D65 /* EcoFlowDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoFlowDevice.swift; sourceTree = "<group>"; };
+		630115C9298AB797008C7D65 /* UIViewController+addAsChild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+addAsChild.swift"; sourceTree = "<group>"; };
+		63942564298FC2D800B02E02 /* UITableView+register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+register.swift"; sourceTree = "<group>"; };
+		63942566298FC30000B02E02 /* ReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableView.swift; sourceTree = "<group>"; };
+		6394BA5F298E76EF0006F239 /* UIViewController+init.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+init.swift"; sourceTree = "<group>"; };
+		6394BA65298E78670006F239 /* AddDivecesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDivecesViewController.swift; sourceTree = "<group>"; };
+		6394BA66298E78670006F239 /* AddDivecesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddDivecesViewController.xib; sourceTree = "<group>"; };
+		6394BA6B298E829E0006F239 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		6394BA6C298E829E0006F239 /* SettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
+		6394BA70298E843E0006F239 /* SettingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewCell.swift; sourceTree = "<group>"; };
+		6394BA71298E843E0006F239 /* SettingsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsTableViewCell.xib; sourceTree = "<group>"; };
+		6394BA75298E860E0006F239 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		63AB0658298AAC2800E4DF08 /* EcoFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EcoFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63AB065B298AAC2800E4DF08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		63AB065D298AAC2800E4DF08 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		63AB0664298AAC2900E4DF08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63AB0667298AAC2900E4DF08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		63AB0669298AAC2900E4DF08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63AB0677298AAE1000E4DF08 /* UsersListDevicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersListDevicesViewController.swift; sourceTree = "<group>"; };
+		63AB0678298AAE1000E4DF08 /* UsersListDevicesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UsersListDevicesViewController.xib; sourceTree = "<group>"; };
+		63AB067D298AAF2200E4DF08 /* EcoFlowDeviceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoFlowDeviceTableViewCell.swift; sourceTree = "<group>"; };
+		63AB067E298AAF2200E4DF08 /* EcoFlowDeviceTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EcoFlowDeviceTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63AB0655298AAC2800E4DF08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		630115C8298AB791008C7D65 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				63942566298FC30000B02E02 /* ReusableView.swift */,
+				63942563298FC2CB00B02E02 /* UITableView */,
+				63942562298FC2BE00B02E02 /* UIViewController */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		63942562298FC2BE00B02E02 /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				630115C9298AB797008C7D65 /* UIViewController+addAsChild.swift */,
+				6394BA5F298E76EF0006F239 /* UIViewController+init.swift */,
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		63942563298FC2CB00B02E02 /* UITableView */ = {
+			isa = PBXGroup;
+			children = (
+				63942564298FC2D800B02E02 /* UITableView+register.swift */,
+			);
+			path = UITableView;
+			sourceTree = "<group>";
+		};
+		6394BA62298E78420006F239 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6394BA63298E784A0006F239 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6394BA64298E784E0006F239 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6394BA65298E78670006F239 /* AddDivecesViewController.swift */,
+				6394BA66298E78670006F239 /* AddDivecesViewController.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6394BA69298E82740006F239 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6394BA6F298E84110006F239 /* Cells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6394BA6A298E82790006F239 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6394BA6B298E829E0006F239 /* SettingsViewController.swift */,
+				6394BA6C298E829E0006F239 /* SettingsViewController.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6394BA6F298E84110006F239 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				6394BA70298E843E0006F239 /* SettingsTableViewCell.swift */,
+				6394BA71298E843E0006F239 /* SettingsTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		6394BA74298E85FE0006F239 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6394BA75298E860E0006F239 /* Settings.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6394BA77298E87D80006F239 /* EcoFlow */ = {
+			isa = PBXGroup;
+			children = (
+				63AB067D298AAF2200E4DF08 /* EcoFlowDeviceTableViewCell.swift */,
+				63AB067E298AAF2200E4DF08 /* EcoFlowDeviceTableViewCell.xib */,
+			);
+			path = EcoFlow;
+			sourceTree = "<group>";
+		};
+		63AB064F298AAC2800E4DF08 = {
+			isa = PBXGroup;
+			children = (
+				63AB065A298AAC2800E4DF08 /* EcoFlow */,
+				63AB0659298AAC2800E4DF08 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63AB0659298AAC2800E4DF08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63AB0658298AAC2800E4DF08 /* EcoFlow.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63AB065A298AAC2800E4DF08 /* EcoFlow */ = {
+			isa = PBXGroup;
+			children = (
+				630115C8298AB791008C7D65 /* Extensions */,
+				63AB0672298AACA400E4DF08 /* AddDevices */,
+				63AB0671298AAC9300E4DF08 /* Settings */,
+				63AB0670298AAC5E00E4DF08 /* UsersListDevices */,
+				63AB066F298AAC3000E4DF08 /* App */,
+				63AB0673298AACB700E4DF08 /* Supporting Files */,
+			);
+			path = EcoFlow;
+			sourceTree = "<group>";
+		};
+		63AB066F298AAC3000E4DF08 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				63AB065B298AAC2800E4DF08 /* AppDelegate.swift */,
+				63AB065D298AAC2800E4DF08 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		63AB0670298AAC5E00E4DF08 /* UsersListDevices */ = {
+			isa = PBXGroup;
+			children = (
+				63AB0676298AADA100E4DF08 /* Controllers */,
+				63AB0675298AAD9A00E4DF08 /* Views */,
+				63AB0674298AAD9100E4DF08 /* Models */,
+			);
+			path = UsersListDevices;
+			sourceTree = "<group>";
+		};
+		63AB0671298AAC9300E4DF08 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				6394BA74298E85FE0006F239 /* Models */,
+				6394BA6A298E82790006F239 /* Controllers */,
+				6394BA69298E82740006F239 /* Views */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		63AB0672298AACA400E4DF08 /* AddDevices */ = {
+			isa = PBXGroup;
+			children = (
+				6394BA64298E784E0006F239 /* Controllers */,
+				6394BA63298E784A0006F239 /* Models */,
+				6394BA62298E78420006F239 /* Views */,
+			);
+			path = AddDevices;
+			sourceTree = "<group>";
+		};
+		63AB0673298AACB700E4DF08 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				63AB0664298AAC2900E4DF08 /* Assets.xcassets */,
+				63AB0666298AAC2900E4DF08 /* LaunchScreen.storyboard */,
+				63AB0669298AAC2900E4DF08 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		63AB0674298AAD9100E4DF08 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				630115C6298AB44E008C7D65 /* EcoFlowDevice.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		63AB0675298AAD9A00E4DF08 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				63AB067C298AAEC300E4DF08 /* Cells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		63AB0676298AADA100E4DF08 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				63AB0677298AAE1000E4DF08 /* UsersListDevicesViewController.swift */,
+				63AB0678298AAE1000E4DF08 /* UsersListDevicesViewController.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		63AB067C298AAEC300E4DF08 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				6394BA77298E87D80006F239 /* EcoFlow */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63AB0657298AAC2800E4DF08 /* EcoFlow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63AB066C298AAC2900E4DF08 /* Build configuration list for PBXNativeTarget "EcoFlow" */;
+			buildPhases = (
+				63AB0654298AAC2800E4DF08 /* Sources */,
+				63AB0655298AAC2800E4DF08 /* Frameworks */,
+				63AB0656298AAC2800E4DF08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EcoFlow;
+			productName = EcoFlow;
+			productReference = 63AB0658298AAC2800E4DF08 /* EcoFlow.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63AB0650298AAC2800E4DF08 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					63AB0657298AAC2800E4DF08 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 63AB0653298AAC2800E4DF08 /* Build configuration list for PBXProject "EcoFlow" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63AB064F298AAC2800E4DF08;
+			productRefGroup = 63AB0659298AAC2800E4DF08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63AB0657298AAC2800E4DF08 /* EcoFlow */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63AB0656298AAC2800E4DF08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6394BA73298E843E0006F239 /* SettingsTableViewCell.xib in Resources */,
+				63AB0668298AAC2900E4DF08 /* LaunchScreen.storyboard in Resources */,
+				6394BA6E298E829E0006F239 /* SettingsViewController.xib in Resources */,
+				63AB0665298AAC2900E4DF08 /* Assets.xcassets in Resources */,
+				63AB0680298AAF2200E4DF08 /* EcoFlowDeviceTableViewCell.xib in Resources */,
+				6394BA68298E78670006F239 /* AddDivecesViewController.xib in Resources */,
+				63AB067A298AAE1000E4DF08 /* UsersListDevicesViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63AB0654298AAC2800E4DF08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63AB067F298AAF2200E4DF08 /* EcoFlowDeviceTableViewCell.swift in Sources */,
+				63942565298FC2D800B02E02 /* UITableView+register.swift in Sources */,
+				63AB065C298AAC2800E4DF08 /* AppDelegate.swift in Sources */,
+				63AB065E298AAC2800E4DF08 /* SceneDelegate.swift in Sources */,
+				6394BA60298E76EF0006F239 /* UIViewController+init.swift in Sources */,
+				6394BA67298E78670006F239 /* AddDivecesViewController.swift in Sources */,
+				63AB0679298AAE1000E4DF08 /* UsersListDevicesViewController.swift in Sources */,
+				630115CA298AB797008C7D65 /* UIViewController+addAsChild.swift in Sources */,
+				630115C7298AB44E008C7D65 /* EcoFlowDevice.swift in Sources */,
+				6394BA72298E843E0006F239 /* SettingsTableViewCell.swift in Sources */,
+				63942567298FC30000B02E02 /* ReusableView.swift in Sources */,
+				6394BA76298E860E0006F239 /* Settings.swift in Sources */,
+				6394BA6D298E829E0006F239 /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		63AB0666298AAC2900E4DF08 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63AB0667298AAC2900E4DF08 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63AB066A298AAC2900E4DF08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		63AB066B298AAC2900E4DF08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63AB066D298AAC2900E4DF08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CW43T79V3J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "EcoFlow/Supporting Files/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vikaStar.ecoflow.EcoFlow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63AB066E298AAC2900E4DF08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CW43T79V3J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "EcoFlow/Supporting Files/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vikaStar.ecoflow.EcoFlow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63AB0653298AAC2800E4DF08 /* Build configuration list for PBXProject "EcoFlow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63AB066A298AAC2900E4DF08 /* Debug */,
+				63AB066B298AAC2900E4DF08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63AB066C298AAC2900E4DF08 /* Build configuration list for PBXNativeTarget "EcoFlow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63AB066D298AAC2900E4DF08 /* Debug */,
+				63AB066E298AAC2900E4DF08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63AB0650298AAC2800E4DF08 /* Project object */;
+}
