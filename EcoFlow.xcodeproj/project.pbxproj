@@ -75,6 +75,15 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		632E124C298FCB2700384414 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				6394BA70298E843E0006F239 /* SettingsTableViewCell.swift */,
+				6394BA71298E843E0006F239 /* SettingsTableViewCell.xib */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
 		63942562298FC2BE00B02E02 /* UIViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -135,8 +144,7 @@
 		6394BA6F298E84110006F239 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				6394BA70298E843E0006F239 /* SettingsTableViewCell.swift */,
-				6394BA71298E843E0006F239 /* SettingsTableViewCell.xib */,
+				632E124C298FCB2700384414 /* Settings */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
