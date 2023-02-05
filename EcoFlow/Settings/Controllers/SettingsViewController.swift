@@ -22,7 +22,6 @@ class SettingsViewController: UIViewController {
         Settings(name: "Check updates", imageName: "dollarsign.circle.fill"),
         Settings(name: "Rate us", imageName: "dollarsign.circle.fill"),
         Settings(name: "About", imageName: "dollarsign.circle.fill"),
-    
     ]
     
     override func viewDidLoad() {
@@ -32,8 +31,7 @@ class SettingsViewController: UIViewController {
     }
     
     func configureTableView() {
-        let cell = UINib(nibName: "SettingsTableViewCell", bundle: nil)
-        tableView.register(cell, forCellReuseIdentifier: "SettingsTableViewCell")
+        tableView.register(SettingsTableViewCell.self)
     }
 }
 
