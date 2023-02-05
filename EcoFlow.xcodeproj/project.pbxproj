@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		630115C7298AB44E008C7D65 /* EcoFlowDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630115C6298AB44E008C7D65 /* EcoFlowDevice.swift */; };
 		630115CA298AB797008C7D65 /* UIViewController+addAsChild.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630115C9298AB797008C7D65 /* UIViewController+addAsChild.swift */; };
+		632E1250298FCB8E00384414 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632E124E298FCB8E00384414 /* UserTableViewCell.swift */; };
+		632E1251298FCB8E00384414 /* UserTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 632E124F298FCB8E00384414 /* UserTableViewCell.xib */; };
+		632E1253298FD5B900384414 /* CircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632E1252298FD5B900384414 /* CircleImageView.swift */; };
+		632E1255298FD7E500384414 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632E1254298FD7E500384414 /* User.swift */; };
 		63942565298FC2D800B02E02 /* UITableView+register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63942564298FC2D800B02E02 /* UITableView+register.swift */; };
 		63942567298FC30000B02E02 /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63942566298FC30000B02E02 /* ReusableView.swift */; };
 		6394BA60298E76EF0006F239 /* UIViewController+init.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6394BA5F298E76EF0006F239 /* UIViewController+init.swift */; };
@@ -32,6 +36,10 @@
 /* Begin PBXFileReference section */
 		630115C6298AB44E008C7D65 /* EcoFlowDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoFlowDevice.swift; sourceTree = "<group>"; };
 		630115C9298AB797008C7D65 /* UIViewController+addAsChild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+addAsChild.swift"; sourceTree = "<group>"; };
+		632E124E298FCB8E00384414 /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		632E124F298FCB8E00384414 /* UserTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserTableViewCell.xib; sourceTree = "<group>"; };
+		632E1252298FD5B900384414 /* CircleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImageView.swift; sourceTree = "<group>"; };
+		632E1254298FD7E500384414 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		63942564298FC2D800B02E02 /* UITableView+register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+register.swift"; sourceTree = "<group>"; };
 		63942566298FC30000B02E02 /* ReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableView.swift; sourceTree = "<group>"; };
 		6394BA5F298E76EF0006F239 /* UIViewController+init.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+init.swift"; sourceTree = "<group>"; };
@@ -84,6 +92,15 @@
 			path = Settings;
 			sourceTree = "<group>";
 		};
+		632E124D298FCB6200384414 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				632E124E298FCB8E00384414 /* UserTableViewCell.swift */,
+				632E124F298FCB8E00384414 /* UserTableViewCell.xib */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
 		63942562298FC2BE00B02E02 /* UIViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -128,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				6394BA6F298E84110006F239 /* Cells */,
+				632E1252298FD5B900384414 /* CircleImageView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -144,6 +162,7 @@
 		6394BA6F298E84110006F239 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				632E124D298FCB6200384414 /* User */,
 				632E124C298FCB2700384414 /* Settings */,
 			);
 			path = Cells;
@@ -153,6 +172,7 @@
 			isa = PBXGroup;
 			children = (
 				6394BA75298E860E0006F239 /* Settings.swift */,
+				632E1254298FD7E500384414 /* User.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -335,6 +355,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				632E1251298FCB8E00384414 /* UserTableViewCell.xib in Resources */,
 				6394BA73298E843E0006F239 /* SettingsTableViewCell.xib in Resources */,
 				63AB0668298AAC2900E4DF08 /* LaunchScreen.storyboard in Resources */,
 				6394BA6E298E829E0006F239 /* SettingsViewController.xib in Resources */,
@@ -354,7 +375,9 @@
 			files = (
 				63AB067F298AAF2200E4DF08 /* EcoFlowDeviceTableViewCell.swift in Sources */,
 				63942565298FC2D800B02E02 /* UITableView+register.swift in Sources */,
+				632E1250298FCB8E00384414 /* UserTableViewCell.swift in Sources */,
 				63AB065C298AAC2800E4DF08 /* AppDelegate.swift in Sources */,
+				632E1255298FD7E500384414 /* User.swift in Sources */,
 				63AB065E298AAC2800E4DF08 /* SceneDelegate.swift in Sources */,
 				6394BA60298E76EF0006F239 /* UIViewController+init.swift in Sources */,
 				6394BA67298E78670006F239 /* AddDivecesViewController.swift in Sources */,
@@ -364,6 +387,7 @@
 				6394BA72298E843E0006F239 /* SettingsTableViewCell.swift in Sources */,
 				63942567298FC30000B02E02 /* ReusableView.swift in Sources */,
 				6394BA76298E860E0006F239 /* Settings.swift in Sources */,
+				632E1253298FD5B900384414 /* CircleImageView.swift in Sources */,
 				6394BA6D298E829E0006F239 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
