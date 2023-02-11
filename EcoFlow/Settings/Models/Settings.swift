@@ -12,3 +12,6 @@ struct Settings {
     var imageName: String
     var additionalInfo: String?
 }
+
+
+
