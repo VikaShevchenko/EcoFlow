@@ -19,7 +19,7 @@ class LanguageViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = "Language"
+        title = "Languages"
         LanguageViewCellController.configure(tableView: tableView)
         
         Language.data.forEach { language in

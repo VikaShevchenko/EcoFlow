@@ -8,10 +8,16 @@
 import UIKit
 
 class SettingsViewController: UIViewController {
-
+    
     @IBOutlet weak var tableView: UITableView!
-
+    
     var data = [TableViewCellController]()
+    
+    
+    enum Screen: Int {
+        case ecoCredits,user,deviceSharing,warrantyRegistration,language,networkDiagnosis,contactCustomerSupport,helpCenter,checkUpdates,rateUs,about
+    }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -61,24 +67,37 @@ extension SettingsViewController: UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
-        switch indexPath.row {
-        case 0:
-            print("Hello vika")
-        case 1:
-            print("Hello maxim")
-        case 2:
-            print("Hello marik")
-        case 4:
-            print("Language")
-            let vc = LanguageViewController()
-            navigationController?.pushViewController(vc, animated: true)
-
-        default:
-            print("another cell")
+        let screen = Screen(rawValue: indexPath.row)!
+        
+        switch screen {
+        case .ecoCredits:
+            break
+        case .user:
+            break
+        case .deviceSharing:
+            pushViewController(DeviceSharingViewController())
+        case .warrantyRegistration:
+            break
+        case .language:
+            pushViewController(LanguageViewController())
+        case .networkDiagnosis:
+            pushViewController(LanguageViewController())
+        case .contactCustomerSupport:
+            pushViewController(LanguageViewController())
+        case .helpCenter:
+            pushViewController(LanguageViewController())
+        case .checkUpdates:
+            break
+        case .rateUs:
+            break
             
+        case .about:
+            pushViewController(AboutViewController())
         }
-        
-        
+    }
+    
+    func pushViewController(_ vc: UIViewController) {
+        navigationController?.pushViewController(vc, animated: true)
     }
 }
 

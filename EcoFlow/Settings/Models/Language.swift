@@ -27,5 +27,6 @@ extension Language {
         Language(name: "FJHKH"),
         Language(name: "Auto"),
         Language(name: "FJHKH"),
+        Language(name: "Manual"),
     ]
 }

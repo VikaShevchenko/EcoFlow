@@ -42,3 +42,5 @@ class SettingsViewCellController: TableViewCellController {
         return cell
     }
 }
+
+
