@@ -18,8 +18,3 @@ class EcoFlowDeviceSettingsDetailsViewController: UIViewController {
 
 
 
-//  Pomodorro Technique
-
-
-// 1 / 25  / 5 хвилин відпочиваєш
-
