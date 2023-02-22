@@ -19,6 +19,10 @@
 		633F767429A0E8560055FDA4 /* DeviceSharingDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 633F767229A0E8560055FDA4 /* DeviceSharingDetailsViewController.xib */; };
 		633F767729A0FB1B0055FDA4 /* EcoFlowInputOutputSegmentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 633F767629A0FB1A0055FDA4 /* EcoFlowInputOutputSegmentView.xib */; };
 		633F767929A0FB2D0055FDA4 /* EcoFlowInputOutputSegmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633F767829A0FB2D0055FDA4 /* EcoFlowInputOutputSegmentView.swift */; };
+		63936EEF29A4C8AC008FCD36 /* AccountSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63936EED29A4C8AC008FCD36 /* AccountSettingsViewController.swift */; };
+		63936EF029A4C8AC008FCD36 /* AccountSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63936EEE29A4C8AC008FCD36 /* AccountSettingsViewController.xib */; };
+		63936EF229A4CC89008FCD36 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63936EF129A4CC89008FCD36 /* Account.swift */; };
+		63936EF429A514AA008FCD36 /* AccountViewCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63936EF329A514AA008FCD36 /* AccountViewCellController.swift */; };
 		63942565298FC2D800B02E02 /* UITableView+register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63942564298FC2D800B02E02 /* UITableView+register.swift */; };
 		63942567298FC30000B02E02 /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63942566298FC30000B02E02 /* ReusableView.swift */; };
 		6394BA60298E76EF0006F239 /* UIViewController+init.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6394BA5F298E76EF0006F239 /* UIViewController+init.swift */; };
@@ -72,6 +76,10 @@
 		633F767229A0E8560055FDA4 /* DeviceSharingDetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DeviceSharingDetailsViewController.xib; sourceTree = "<group>"; };
 		633F767629A0FB1A0055FDA4 /* EcoFlowInputOutputSegmentView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EcoFlowInputOutputSegmentView.xib; sourceTree = "<group>"; };
 		633F767829A0FB2D0055FDA4 /* EcoFlowInputOutputSegmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoFlowInputOutputSegmentView.swift; sourceTree = "<group>"; };
+		63936EED29A4C8AC008FCD36 /* AccountSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSettingsViewController.swift; sourceTree = "<group>"; };
+		63936EEE29A4C8AC008FCD36 /* AccountSettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountSettingsViewController.xib; sourceTree = "<group>"; };
+		63936EF129A4CC89008FCD36 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		63936EF329A514AA008FCD36 /* AccountViewCellController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewCellController.swift; sourceTree = "<group>"; };
 		63942564298FC2D800B02E02 /* UITableView+register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+register.swift"; sourceTree = "<group>"; };
 		63942566298FC30000B02E02 /* ReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableView.swift; sourceTree = "<group>"; };
 		6394BA5F298E76EF0006F239 /* UIViewController+init.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+init.swift"; sourceTree = "<group>"; };
@@ -160,6 +168,7 @@
 				632E1257298FD9B900384414 /* TableViewCellController.swift */,
 				639E8D932997B7A000A6969E /* UserTableViewCellController.swift */,
 				639E8D952997B7D100A6969E /* LanguageViewCellController.swift */,
+				63936EF329A514AA008FCD36 /* AccountViewCellController.swift */,
 			);
 			path = TableViewCellController;
 			sourceTree = "<group>";
@@ -180,6 +189,15 @@
 				633F767829A0FB2D0055FDA4 /* EcoFlowInputOutputSegmentView.swift */,
 			);
 			path = EcoFlowInputOutputSegmentView;
+			sourceTree = "<group>";
+		};
+		63936EEC29A4C874008FCD36 /* AccountSettingsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				63936EED29A4C8AC008FCD36 /* AccountSettingsViewController.swift */,
+				63936EEE29A4C8AC008FCD36 /* AccountSettingsViewController.xib */,
+			);
+			path = AccountSettingsViewController;
 			sourceTree = "<group>";
 		};
 		63942562298FC2BE00B02E02 /* UIViewController */ = {
@@ -262,6 +280,7 @@
 				6394BA75298E860E0006F239 /* Settings.swift */,
 				632E1254298FD7E500384414 /* User.swift */,
 				639E8D912997B48800A6969E /* Language.swift */,
+				63936EF129A4CC89008FCD36 /* Account.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -330,6 +349,7 @@
 		639E8D8A2997B08100A6969E /* SettingsViewController */ = {
 			isa = PBXGroup;
 			children = (
+				63936EEC29A4C874008FCD36 /* AccountSettingsViewController */,
 				6394BA6B298E829E0006F239 /* SettingsViewController.swift */,
 				6394BA6C298E829E0006F239 /* SettingsViewController.xib */,
 			);
@@ -547,6 +567,7 @@
 			files = (
 				632E1251298FCB8E00384414 /* UserTableViewCell.xib in Resources */,
 				633F767729A0FB1B0055FDA4 /* EcoFlowInputOutputSegmentView.xib in Resources */,
+				63936EF029A4C8AC008FCD36 /* AccountSettingsViewController.xib in Resources */,
 				6398E838299913DA0097439E /* EcoFlowInputView.xib in Resources */,
 				6394BA73298E843E0006F239 /* SettingsTableViewCell.xib in Resources */,
 				63C72F31299CF04C0079C6D3 /* DeviceSharingViewController.xib in Resources */,
@@ -584,6 +605,7 @@
 				63AB065C298AAC2800E4DF08 /* AppDelegate.swift in Sources */,
 				639E8D922997B48800A6969E /* Language.swift in Sources */,
 				632E1255298FD7E500384414 /* User.swift in Sources */,
+				63936EF229A4CC89008FCD36 /* Account.swift in Sources */,
 				63AB065E298AAC2800E4DF08 /* SceneDelegate.swift in Sources */,
 				639E8D942997B7A000A6969E /* UserTableViewCellController.swift in Sources */,
 				6398E82529990A080097439E /* EcoCreditsViewController.swift in Sources */,
@@ -591,6 +613,7 @@
 				6394BA60298E76EF0006F239 /* UIViewController+init.swift in Sources */,
 				6398E836299913CA0097439E /* EcoFlowInputView.swift in Sources */,
 				63C72F30299CF04C0079C6D3 /* DeviceSharingViewController.swift in Sources */,
+				63936EF429A514AA008FCD36 /* AccountViewCellController.swift in Sources */,
 				6394BA67298E78670006F239 /* AddDivecesViewController.swift in Sources */,
 				63AB0679298AAE1000E4DF08 /* UsersListDevicesViewController.swift in Sources */,
 				639E8D962997B7D100A6969E /* LanguageViewCellController.swift in Sources */,
@@ -599,6 +622,7 @@
 				630115C7298AB44E008C7D65 /* EcoFlowDevice.swift in Sources */,
 				632E1258298FD9B900384414 /* TableViewCellController.swift in Sources */,
 				6394BA72298E843E0006F239 /* SettingsTableViewCell.swift in Sources */,
+				63936EEF29A4C8AC008FCD36 /* AccountSettingsViewController.swift in Sources */,
 				63942567298FC30000B02E02 /* ReusableView.swift in Sources */,
 				6398E8332999111A0097439E /* EcoFlowOutputView.swift in Sources */,
 				6394BA76298E860E0006F239 /* Settings.swift in Sources */,

@@ -15,7 +15,7 @@ class SettingsViewController: UIViewController {
     
     
     enum Screen: Int {
-        case ecoCredits,user,deviceSharing,warrantyRegistration,language,networkDiagnosis,contactCustomerSupport,helpCenter,checkUpdates,rateUs,about
+        case accountSettings,ecoCredits,user,deviceSharing,warrantyRegistration,language,networkDiagnosis,contactCustomerSupport,helpCenter,checkUpdates,rateUs,about
     }
     
     
@@ -23,7 +23,7 @@ class SettingsViewController: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = .black
         configureTableView()
-        data.append(UserTableViewCellController(model: User(name: "Maxim", email: "w12@gmail.com", imageName: "TestImage", id: "12121212") ))
+        data.append(UserTableViewCellController(model: User(name: "User Name", email: "w12@gmail.com", imageName: "TestImage", id: "12121212") ))
         data.append(SettingsViewCellController(model: Settings(name: "EcoCredits",
                                                                imageName: "dollarsign.circle.fill",
                                                                additionalInfo: "500")))
@@ -70,6 +70,8 @@ extension SettingsViewController: UITableViewDelegate {
         let screen = Screen(rawValue: indexPath.row)!
         
         switch screen {
+        case .accountSettings:
+            pushViewController(AccountSettingsViewController())
         case .ecoCredits:
             break
         case .user:
