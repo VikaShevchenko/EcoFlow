@@ -8,21 +8,32 @@
 import UIKit
 
 class AccountViewCellController: TableViewCellController {
+    private let model: AccountSettings
     
-    private let model: Account
-    init(model: Account) {
+    init(model: AccountSettings) {
         self.model = model
     }
     static func configure(tableView: UITableView) {
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: "accountCell")
-        
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = UITableViewCell(style: .value1, reuseIdentifier: "accountCell")
-        cell.textLabel?.text = model.name
-        cell.backgroundColor = .clear
+        
+        
+        if let imageName = model.imageName {
+            let view = UIImageView(image: UIImage(named: imageName))
+            view.backgroundColor = .red
+            view.frame = CGRect(origin: .zero, size: CGSize(width: 20, height: 20))
+            cell.accessoryView = view
+        }
+        
+
+        cell.textLabel?.text = model.title
+        cell.detailTextLabel?.text = model.detailText
+        cell.backgroundColor = .black
+        cell.accessoryType = .disclosureIndicator
+
         return cell
     }
-    
 }
