@@ -21,7 +21,7 @@
 		633F767929A0FB2D0055FDA4 /* EcoFlowInputOutputSegmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633F767829A0FB2D0055FDA4 /* EcoFlowInputOutputSegmentView.swift */; };
 		63936EEF29A4C8AC008FCD36 /* AccountSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63936EED29A4C8AC008FCD36 /* AccountSettingsViewController.swift */; };
 		63936EF029A4C8AC008FCD36 /* AccountSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63936EEE29A4C8AC008FCD36 /* AccountSettingsViewController.xib */; };
-		63936EF229A4CC89008FCD36 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63936EF129A4CC89008FCD36 /* Account.swift */; };
+		63936EF229A4CC89008FCD36 /* AccountSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63936EF129A4CC89008FCD36 /* AccountSettings.swift */; };
 		63936EF429A514AA008FCD36 /* AccountViewCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63936EF329A514AA008FCD36 /* AccountViewCellController.swift */; };
 		63942565298FC2D800B02E02 /* UITableView+register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63942564298FC2D800B02E02 /* UITableView+register.swift */; };
 		63942567298FC30000B02E02 /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63942566298FC30000B02E02 /* ReusableView.swift */; };
@@ -42,6 +42,7 @@
 		6398E8332999111A0097439E /* EcoFlowOutputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6398E8322999111A0097439E /* EcoFlowOutputView.swift */; };
 		6398E836299913CA0097439E /* EcoFlowInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6398E835299913CA0097439E /* EcoFlowInputView.swift */; };
 		6398E838299913DA0097439E /* EcoFlowInputView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6398E837299913DA0097439E /* EcoFlowInputView.xib */; };
+		639C33C929AB840C009F0BC2 /* RootCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639C33C829AB840C009F0BC2 /* RootCoordinator.swift */; };
 		639E8D8E2997B0BC00A6969E /* LanguageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639E8D8C2997B0BC00A6969E /* LanguageViewController.swift */; };
 		639E8D8F2997B0BC00A6969E /* LanguageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 639E8D8D2997B0BC00A6969E /* LanguageViewController.xib */; };
 		639E8D922997B48800A6969E /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639E8D912997B48800A6969E /* Language.swift */; };
@@ -78,7 +79,7 @@
 		633F767829A0FB2D0055FDA4 /* EcoFlowInputOutputSegmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoFlowInputOutputSegmentView.swift; sourceTree = "<group>"; };
 		63936EED29A4C8AC008FCD36 /* AccountSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSettingsViewController.swift; sourceTree = "<group>"; };
 		63936EEE29A4C8AC008FCD36 /* AccountSettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountSettingsViewController.xib; sourceTree = "<group>"; };
-		63936EF129A4CC89008FCD36 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		63936EF129A4CC89008FCD36 /* AccountSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSettings.swift; sourceTree = "<group>"; };
 		63936EF329A514AA008FCD36 /* AccountViewCellController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewCellController.swift; sourceTree = "<group>"; };
 		63942564298FC2D800B02E02 /* UITableView+register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+register.swift"; sourceTree = "<group>"; };
 		63942566298FC30000B02E02 /* ReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableView.swift; sourceTree = "<group>"; };
@@ -99,6 +100,7 @@
 		6398E8322999111A0097439E /* EcoFlowOutputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoFlowOutputView.swift; sourceTree = "<group>"; };
 		6398E835299913CA0097439E /* EcoFlowInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoFlowInputView.swift; sourceTree = "<group>"; };
 		6398E837299913DA0097439E /* EcoFlowInputView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EcoFlowInputView.xib; sourceTree = "<group>"; };
+		639C33C829AB840C009F0BC2 /* RootCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootCoordinator.swift; sourceTree = "<group>"; };
 		639E8D8C2997B0BC00A6969E /* LanguageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageViewController.swift; sourceTree = "<group>"; };
 		639E8D8D2997B0BC00A6969E /* LanguageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LanguageViewController.xib; sourceTree = "<group>"; };
 		639E8D912997B48800A6969E /* Language.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
@@ -259,6 +261,7 @@
 				6398E822299909F40097439E /* EcoCreditsViewController */,
 				639E8D8B2997B09900A6969E /* LanguageViewController */,
 				6398E821299904B00097439E /* NetworkDiagnosisViewController */,
+				63936EEC29A4C874008FCD36 /* AccountSettingsViewController */,
 				639E8D8A2997B08100A6969E /* SettingsViewController */,
 				632E1256298FD99400384414 /* TableViewCellController */,
 			);
@@ -280,7 +283,7 @@
 				6394BA75298E860E0006F239 /* Settings.swift */,
 				632E1254298FD7E500384414 /* User.swift */,
 				639E8D912997B48800A6969E /* Language.swift */,
-				63936EF129A4CC89008FCD36 /* Account.swift */,
+				63936EF129A4CC89008FCD36 /* AccountSettings.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -346,10 +349,17 @@
 			path = EcoFlowInputView;
 			sourceTree = "<group>";
 		};
+		639C33C729AB83FA009F0BC2 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				639C33C829AB840C009F0BC2 /* RootCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
 		639E8D8A2997B08100A6969E /* SettingsViewController */ = {
 			isa = PBXGroup;
 			children = (
-				63936EEC29A4C874008FCD36 /* AccountSettingsViewController */,
 				6394BA6B298E829E0006F239 /* SettingsViewController.swift */,
 				6394BA6C298E829E0006F239 /* SettingsViewController.xib */,
 			);
@@ -402,6 +412,7 @@
 		63AB065A298AAC2800E4DF08 /* EcoFlow */ = {
 			isa = PBXGroup;
 			children = (
+				639C33C729AB83FA009F0BC2 /* Coordinator */,
 				630115C8298AB791008C7D65 /* Extensions */,
 				63AB0672298AACA400E4DF08 /* AddDevices */,
 				63AB0671298AAC9300E4DF08 /* Settings */,
@@ -434,8 +445,8 @@
 		63AB0671298AAC9300E4DF08 /* Settings */ = {
 			isa = PBXGroup;
 			children = (
-				6394BA74298E85FE0006F239 /* Models */,
 				6394BA6A298E82790006F239 /* Controllers */,
+				6394BA74298E85FE0006F239 /* Models */,
 				6394BA69298E82740006F239 /* Views */,
 			);
 			path = Settings;
@@ -605,11 +616,12 @@
 				63AB065C298AAC2800E4DF08 /* AppDelegate.swift in Sources */,
 				639E8D922997B48800A6969E /* Language.swift in Sources */,
 				632E1255298FD7E500384414 /* User.swift in Sources */,
-				63936EF229A4CC89008FCD36 /* Account.swift in Sources */,
+				63936EF229A4CC89008FCD36 /* AccountSettings.swift in Sources */,
 				63AB065E298AAC2800E4DF08 /* SceneDelegate.swift in Sources */,
 				639E8D942997B7A000A6969E /* UserTableViewCellController.swift in Sources */,
 				6398E82529990A080097439E /* EcoCreditsViewController.swift in Sources */,
 				633F767329A0E8560055FDA4 /* DeviceSharingDetailsViewController.swift in Sources */,
+				639C33C929AB840C009F0BC2 /* RootCoordinator.swift in Sources */,
 				6394BA60298E76EF0006F239 /* UIViewController+init.swift in Sources */,
 				6398E836299913CA0097439E /* EcoFlowInputView.swift in Sources */,
 				63C72F30299CF04C0079C6D3 /* DeviceSharingViewController.swift in Sources */,
